@@ -1,3 +1,5 @@
-for i in range(1, 13):
-    print("No. {} squared is {} and cubed is  {:5}". format (i, i ** 2, i ** 3))
-    print("*" * 80)
+name = input("Please enter your name: ")
+age = int("How old are yoy, {0}? ". format (name))
+print(age)
+
+# using the int and the input function to getr answers from the user #
