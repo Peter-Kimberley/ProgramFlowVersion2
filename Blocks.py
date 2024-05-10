@@ -13,4 +13,4 @@ if age <= 18:
 else:
     print("You are old enough to vote")
     print("Please put an X in the box")
-# There are more conditions added to the code #     
+# There are more conditions added to the code #      
