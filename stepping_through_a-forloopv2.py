@@ -9,3 +9,4 @@ for char in number:
 
 values = "".join(char if char not in seperators else " " for char in number).split()
 print(sum([int(val) for val in values]))
+# we have used the built in function sum() to add all the numbers in our sequence and output the total
