@@ -19,9 +19,9 @@ while guess != answer:
         break
     else:
         if guess < answer:
-            print("Please guess higher")
+            print("Please guess higher, or press 0 to exit: ")
         else:
-            print("Please guess lower")
+            print("Please guess lower, or press 0 to exit: ")
         # guess = int(input())
         # if guess == answer:
         #     print("Well done you guessed corretly")
