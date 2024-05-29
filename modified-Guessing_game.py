@@ -4,7 +4,8 @@ answer = random.randint(1, highest)
 guess =(0)
 print(answer) # TODO: delete code after testing.
 
-print("Please guess number between 1 and {}, or press 0 to exit: ".format(highest))
+print("Please guess number \
+      between 1 and {}, or press 0 to exit: ".format(highest))
 
 
 while guess != answer:

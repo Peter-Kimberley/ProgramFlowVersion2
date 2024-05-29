@@ -17,7 +17,8 @@ else:
        print("Sorry you didnt guees correctly")
        
     
-# Guessing game is now simplified to allow to check if answer is correct first time.
+# # Guessing game is now simplified to allow to 
+# check if answer is correct first time.
 
 
 

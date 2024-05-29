@@ -9,7 +9,8 @@ input("Please press enter to start ")
 while True:
     guess = low + (high - low) // 2 # This is the formularfor the chop
     high_low = input("my guess is {}. Should I guess higher or lower? "
-                      "Enter h for higher or enter l for lower, or enter c if I guessed correctly "
+                      "Enter h for higher or enter l for lower, or \
+                        enter c if I guessed correctly "
                       "".format(guess)).casefold()
     if high_low == "h":
         # Then low becomes 1 greater than the guess
