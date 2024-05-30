@@ -2,6 +2,8 @@
 high = 1000
 low = 1
 
+
+
 tries = (1)
 print("Please think of a number between {} and {} :".format(low, high))
 input("Please press enter to start ")
@@ -9,7 +11,7 @@ input("Please press enter to start ")
 while low!= high:
     guess = low + (high - low) // 2 # This is the formularfor the chop
     high_low = input("my guess is {}. Should I guess higher or lower"
-                     "enter c if I guessed correctly "
+                    "enter c if I guessed correctly "
                       "".format(guess)).casefold()
     if high_low == "h":
         # Then low becomes 1 greater than the guess
